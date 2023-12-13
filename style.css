@@ -128,8 +128,9 @@ nav {
 
 .nav__links {
   background-color: #000205;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
+   
 }
 
 .link a {
@@ -164,8 +165,8 @@ nav {
 /* grid*/
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: 1fr 4fr 2fr;
+  grid-template-rows: minmax(200px, auto);
   gap: 10px;
   padding: 10px;
   max-width: 600px;
